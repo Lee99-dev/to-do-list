@@ -1,0 +1,27 @@
+.Todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  margin: 2px;
+}
+
+.Todo button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+  display: flex;
+}
+
+.Todo_text {
+  width: 150px;
+}
+
+.Todo_text:hover {
+  text-decoration: underline;
+}
